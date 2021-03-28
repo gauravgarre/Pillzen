@@ -75,8 +75,8 @@ def send_sms_message(reminder):
     print(message.sid)
 
 def send_call_message(reminder):
-    account_sid = 'AC54a47a1d46b4b3c91285dba37849b3d2'
-    auth_token = '718efa2ce0731bf1451df22aeaf383af'
+    account_sid = 'id goes here'
+    auth_token = 'token goes here'
     client = Client(account_sid, auth_token)
     msg = f"This is a reminder to take, {reminder[2]}, at a dosage of,,, {reminder[4]}."
     call = client.calls.create(
@@ -85,12 +85,12 @@ def send_call_message(reminder):
         from_='+18013370504'
     )
     print(call.sid)
-"""
-scheduler = BackgroundScheduler()
-scheduler.add_job(func=check_appointments, trigger="interval", seconds=60)
-scheduler.start()
-"""
+
 check_appointments()
+scheduler = BackgroundScheduler()
+scheduler.add_job(func=check_appointments, trigger="interval", seconds=3600)
+scheduler.start()
+
 @app.route('/detect_text', methods=['GET', 'POST'])
 def detect_text():
     if request.method == 'POST':
@@ -99,34 +99,7 @@ def detect_text():
         print('GOT IN POST')
         post = request.get_json()
         content = requests.get(post['imgDownloadURL']).content
-
-        """
-        f = request.files['imgFileData']
-        print(f)
-        con = f.read()
-
-        d = request.data['otherData']
-        print(d)
-        """
-        """
-        other_data = request.files['otherData']
-        txt_con = other_data.read()
-        with open('myinfo.json', mode='bx') as file:
-            file.write(txt_con)
         
-
-        with open('myimg.jpg', mode='bx') as file:
-            file.write(con)
-            
-        path = "myimg.jpg"
-        #path = "prescription-label.png"
-        
-        #Detects text in the file.
-        
-        print('saved the image')
-        with io.open(path, 'rb') as image_file:
-            content = image_file.read()
-        """
         client = vision.ImageAnnotatorClient()
 
         image = vision.Image(content=content)
