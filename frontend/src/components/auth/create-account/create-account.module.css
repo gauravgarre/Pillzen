@@ -1,0 +1,78 @@
+div .container {
+  margin: 0 !important;
+  height: 100vh;
+}
+
+div .illusContainer {
+  background-color: #fff7ea;
+}
+
+div .illusContent {
+  margin: 0 auto;
+  text-align: start;
+  width: 65%;
+  margin-top: 60px;
+}
+
+.illusContent p:nth-child(1) {
+  margin-bottom: 24px;
+}
+
+.ilusImg {
+  width: 100%;
+}
+
+div .authActionContainer {
+  margin-top: 100px;
+}
+
+div .authHeader {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.toggleAuthOption {
+  cursor: pointer;
+}
+
+div button.submitBtn {
+  margin-top: 20px;
+  width: 100%;
+}
+
+div .boxContainer {
+  margin: 0 auto;
+}
+
+.authToggler {
+  margin-top: 30px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.feedbackLink {
+  position: fixed;
+  right: 5px;
+  bottom: 10px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 992px) {
+  div .boxContainer {
+    margin-top: 60px;
+    padding: 15px 20px;
+    border-radius: 2px;
+    padding-bottom: 40px;
+    -webkit-box-shadow: 10px 5px 39px -6px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 10px 5px 39px -6px rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 5px 39px -6px rgba(0, 0, 0, 0.3);
+  }
+  div .authActionContainer {
+    margin-top: 5px;
+  }
+  div .submitBtnContainer {
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+}
