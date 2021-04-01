@@ -24,7 +24,7 @@ Join the Pillzen community to improve your mental health & manage your medicatio
 <!-- GETTING STARTED -->
 ## Getting Started
 
-There is no code necessary to run, simply navigate to after reading the usage instructions: <a href="https://pillzen.tech/">https://pillzen.tech</a>
+There is no code necessary to run, simply navigate to the app after reading the usage instructions: <a href="https://pillzen.tech/">https://pillzen.tech</a>
 
 
 <!-- USAGE EXAMPLES -->
