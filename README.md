@@ -33,9 +33,9 @@ There is no code necessary to run, simply navigate to the app after reading the 
 This demo video shows how to use the app: https://youtu.be/BqiydM8GXB8
 
 Currently, the app is specialized to handle a specific prescription label format. Here are a few sample labels to test the functionality of our app: 
-https://ibb.co/Dp73C2T
-https://ibb.co/HhTZQYD
-https://ibb.co/K00KYcF
+https://ibb.co/Dp73C2T \
+https://ibb.co/HhTZQYD \
+https://ibb.co/K00KYcF \
 
 
 When typing in your phone number to create a reminder, it is necessary to specify the area code. For examnple, the phone number 2292001867 with a U.S. area code (+1) must be entered as +12292001867.
