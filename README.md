@@ -37,7 +37,7 @@ https://ibb.co/G7mSG0V
 
 When typing in your phone number to create a reminder, it is necessary to specify the area code. For examnple, the phone number 2292001867 with a U.S. area code (+1) must be entered as +12292001867.
 
-In order to stop receiving messages, text STOP to the reminder number. This information can also be accessed by texting an incorrect response to the number. The prescription images provided are for medication needed to be taken daily over a multiple day period - be wary of multiple texts if you do not text STOP.
+In order to stop receiving messages, text STOP to the reminder number. This information can also be accessed by texting an incorrect response to the number. The prescription images provided are for medication needed to be taken daily over a multiple day period - be wary of recurring texts if you do not text STOP.
 
 <!-- CONTACT -->
 ## Contact
